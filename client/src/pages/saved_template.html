@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+
+        <!-- NAVBAR -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="">
+                    <img src="https://blog.hubspot.com/hubfs/image8-2.jpg">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Home
+                    </a>
+
+                    <a class="navbar-item">
+                        Saved
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO TEXT  -->
+        <section class="hero is-medium is-primary is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        React Google Books Search
+                    </h1>
+                    <h2 class="subtitle">
+                        Search for and save books!
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <!-- RESULTS BOX -->
+        <div class="container">
+            <div class="box">
+                <div class="field">
+                    <label class="label">Results</label>
+                </div>
+
+                <!-- BOOK RESULT -->
+                <div class="box">
+                    <div class="field">
+                        <button class="button is-primary is-pulled-right">View</button>
+                        <button class="button is-danger is-pulled-right">Delete</button>
+                        <label class="label">Book Title</label>
+                        <h2>By: Author</h2>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img
+                                    src="https://storage.googleapis.com/indie-hackers.appspot.com/product-avatars/quick-and-simple-image-placeholders/bcohuFwnmPgIu4aM56YZudq12m02">
+                            </div>
+                            <div class="column">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nesciunt dolorum fuga.
+                                Facere vitae impedit numquam illum sed doloribus fugiat repudiandae ut iure, natus nisi
+                                alias ad enim, earum commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nemo veritatis natus blanditiis quo beatae. Itaque, aut quis quasi nam temporibus,
+                                quisquam eius id rem veniam dolorem soluta earum consectetur ab. Lorem ipsum dolor sit
+                                amet consectetur, adipisicing elit. Itaque facilis, quos corrupti nihil temporibus ab
+                                culpa non voluptatum, iure sunt aliquid? Repellat adipisci sapiente aspernatur maiores
+                                facilis cumque ad quibusdam.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
