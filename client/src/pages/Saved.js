@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Banner from "../components/Banner";
 import Book from "../components/Book";
 import Navbar from "../components/Navbar";
@@ -31,7 +31,7 @@ class Saved extends Component {
     
     render() {
         return(
-            <div>
+            <Fragment>
                 <Navbar />
                 <Banner />
                 <ResultsBox
@@ -44,7 +44,7 @@ class Saved extends Component {
                         image="https://storage.googleapis.com/indie-hackers.appspot.com/product-avatars/quick-and-simple-image-placeholders/bcohuFwnmPgIu4aM56YZudq12m02"
                     />
                 </ResultsBox>
-            </div>
+            </Fragment>
         );
     }
 }
