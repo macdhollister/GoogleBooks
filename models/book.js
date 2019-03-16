@@ -24,7 +24,8 @@ const bookSchema = new Schema({
     },
     googleId: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     }
 });
 
